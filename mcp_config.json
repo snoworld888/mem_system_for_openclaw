@@ -1,0 +1,15 @@
+{
+  "mcp": {
+    "servers": {
+      "memory": {
+        "command": "python",
+        "args": ["main.py", "--mcp"],
+        "cwd": "c:\\07code\\mem_server",
+        "env": {
+          "PYTHONPATH": "c:\\07code\\mem_server",
+          "DATA_DIR": "c:\\07code\\mem_server\\data"
+        }
+      }
+    }
+  }
+}
