@@ -1,0 +1,30 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\kongf\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: c:\07code\mem_server
+configfile: pytest.ini
+plugins: anyio-4.12.1, asyncio-1.3.0, cov-7.1.0
+asyncio: mode=Mode.AUTO, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 19 items
+
+tests/test_assembler.py::TestAssemblerBasic::test_assemble_empty_returns_context PASSED [  5%]
+tests/test_assembler.py::TestAssemblerBasic::test_rules_included_when_available PASSED [ 10%]
+tests/test_assembler.py::TestAssemblerBasic::test_profile_included_when_available PASSED [ 15%]
+tests/test_assembler.py::TestAssemblerBasic::test_ltm_included_when_available PASSED [ 21%]
+tests/test_assembler.py::TestAssemblerBasic::test_stm_included_when_available PASSED [ 26%]
+tests/test_assembler.py::TestAssemblerTokenBudget::test_total_tokens_within_budget PASSED [ 31%]
+tests/test_assembler.py::TestAssemblerTokenBudget::test_very_small_max_tokens_no_crash PASSED [ 36%]
+tests/test_assembler.py::TestAssemblerTokenBudget::test_rules_always_included_first PASSED [ 42%]
+tests/test_assembler.py::TestAssemblerSwitches::test_exclude_rules_when_flag_false PASSED [ 47%]
+tests/test_assembler.py::TestAssemblerSwitches::test_exclude_profile_when_flag_false PASSED [ 52%]
+tests/test_assembler.py::TestAssemblerSwitches::test_ltm_top_k_zero_skips_ltm PASSED [ 57%]
+tests/test_assembler.py::TestAssemblerSwitches::test_stm_turns_zero_no_stm PASSED [ 63%]
+tests/test_assembler.py::TestAssemblerToMessages::test_to_messages_returns_list PASSED [ 68%]
+tests/test_assembler.py::TestAssemblerToMessages::test_messages_have_role_and_content PASSED [ 73%]
+tests/test_assembler.py::TestAssemblerToMessages::test_rules_in_system_message PASSED [ 78%]
+tests/test_assembler.py::TestAssemblerToMessages::test_stm_turns_in_messages PASSED [ 84%]
+tests/test_assembler.py::TestAssemblerToMessages::test_empty_context_returns_empty_messages PASSED [ 89%]
+tests/test_assembler.py::TestAssemblerToMessages::test_profile_in_user_profile_tag PASSED [ 94%]
+tests/test_assembler.py::TestAssemblerWithSummary::test_summary_injected_into_profile PASSED [100%]
+
+============================= 19 passed in 17.07s =============================

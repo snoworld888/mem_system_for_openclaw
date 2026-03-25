@@ -76,6 +76,10 @@ class ShortTermMemoryManager:
         """
         stm = self._load_session(session_id)
 
+        # max_turns=0 表示不要任何轮次
+        if max_turns == 0:
+            return [], stm.compressed_summary
+
         # 先取最近 max_turns 轮
         recent = stm.turns[-max_turns:] if len(stm.turns) > max_turns else stm.turns[:]
 

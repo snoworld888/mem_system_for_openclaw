@@ -1,0 +1,26 @@
+{
+  "session_id": "api_test_user",
+  "turns": [
+    {
+      "role": "user",
+      "content": "第0轮消息",
+      "timestamp": "2026-03-24T01:51:36.422256",
+      "token_count": 5
+    },
+    {
+      "role": "assistant",
+      "content": "第1轮消息",
+      "timestamp": "2026-03-24T01:51:36.556396",
+      "token_count": 5
+    },
+    {
+      "role": "user",
+      "content": "第2轮消息",
+      "timestamp": "2026-03-24T01:51:36.572483",
+      "token_count": 5
+    }
+  ],
+  "total_tokens": 15,
+  "compressed_summary": "",
+  "summary_tokens": 0
+}

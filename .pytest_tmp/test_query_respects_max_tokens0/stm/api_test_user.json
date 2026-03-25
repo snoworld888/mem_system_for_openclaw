@@ -1,0 +1,68 @@
+{
+  "session_id": "api_test_user",
+  "turns": [
+    {
+      "role": "user",
+      "content": "对话内容第0条，这是比较长的文本内容",
+      "timestamp": "2026-03-24T01:51:37.151641",
+      "token_count": 17
+    },
+    {
+      "role": "user",
+      "content": "对话内容第1条，这是比较长的文本内容",
+      "timestamp": "2026-03-24T01:51:37.164659",
+      "token_count": 17
+    },
+    {
+      "role": "user",
+      "content": "对话内容第2条，这是比较长的文本内容",
+      "timestamp": "2026-03-24T01:51:37.177563",
+      "token_count": 17
+    },
+    {
+      "role": "user",
+      "content": "对话内容第3条，这是比较长的文本内容",
+      "timestamp": "2026-03-24T01:51:37.188887",
+      "token_count": 17
+    },
+    {
+      "role": "user",
+      "content": "对话内容第4条，这是比较长的文本内容",
+      "timestamp": "2026-03-24T01:51:37.200044",
+      "token_count": 17
+    },
+    {
+      "role": "user",
+      "content": "对话内容第5条，这是比较长的文本内容",
+      "timestamp": "2026-03-24T01:51:37.216842",
+      "token_count": 17
+    },
+    {
+      "role": "user",
+      "content": "对话内容第6条，这是比较长的文本内容",
+      "timestamp": "2026-03-24T01:51:37.229671",
+      "token_count": 17
+    },
+    {
+      "role": "user",
+      "content": "对话内容第7条，这是比较长的文本内容",
+      "timestamp": "2026-03-24T01:51:37.239753",
+      "token_count": 17
+    },
+    {
+      "role": "user",
+      "content": "对话内容第8条，这是比较长的文本内容",
+      "timestamp": "2026-03-24T01:51:37.248221",
+      "token_count": 17
+    },
+    {
+      "role": "user",
+      "content": "对话内容第9条，这是比较长的文本内容",
+      "timestamp": "2026-03-24T01:51:37.263937",
+      "token_count": 17
+    }
+  ],
+  "total_tokens": 170,
+  "compressed_summary": "",
+  "summary_tokens": 0
+}

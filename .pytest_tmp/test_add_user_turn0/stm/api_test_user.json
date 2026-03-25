@@ -1,0 +1,14 @@
+{
+  "session_id": "api_test_user",
+  "turns": [
+    {
+      "role": "user",
+      "content": "你好，我是测试用户",
+      "timestamp": "2026-03-24T01:51:10.291686",
+      "token_count": 7
+    }
+  ],
+  "total_tokens": 7,
+  "compressed_summary": "",
+  "summary_tokens": 0
+}

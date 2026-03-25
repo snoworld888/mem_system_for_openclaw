@@ -80,11 +80,15 @@ class ContextAssembler:
 
         # ── 4. 短期记忆（最近对话）──────────────────────────────────
         stm_budget = max(200, max_tokens - used_tokens)
-        turns, old_summary = await self.stm.get_recent_turns(
-            req.session_id,
-            max_turns=req.stm_turns,
-            max_tokens=stm_budget,
-        )
+        if req.stm_turns <= 0:
+            # stm_turns=0 明确表示不需要任何对话轮次
+            turns, old_summary = [], None
+        else:
+            turns, old_summary = await self.stm.get_recent_turns(
+                req.session_id,
+                max_turns=req.stm_turns,
+                max_tokens=stm_budget,
+            )
 
         # 如果有历史摘要，插入到profile块
         if old_summary:
